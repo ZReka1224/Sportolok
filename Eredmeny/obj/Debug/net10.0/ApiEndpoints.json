@@ -1,0 +1,123 @@
+[
+  {
+    "ContainingType": "Sportolok.Controllers.EredmenyController",
+    "Method": "GetEredmenyek",
+    "RelativePath": "api/Eredmeny",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Sportolok.Models.EredmenyM, Sportolok, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sportolok.Controllers.EredmenyController",
+    "Method": "AddNewSportolo",
+    "RelativePath": "api/Eredmeny",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addNewSportroloDto",
+        "Type": "Sportolok.Models.DTO.EredmenyPost",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sportolok.Controllers.EredmenyController",
+    "Method": "EredmenyPut",
+    "RelativePath": "api/Eredmeny",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "eredmenyPut",
+        "Type": "Sportolok.Models.DTO.EredmenyPut",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sportolok.Controllers.EredmenyController",
+    "Method": "DeleteSportolo",
+    "RelativePath": "api/Eredmeny",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sportolok.Controllers.EredmenyController",
+    "Method": "GetEredmenyById",
+    "RelativePath": "api/Eredmeny/byId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sportolok.Controllers.EredmenyController",
+    "Method": "GetSportoloById",
+    "RelativePath": "api/Eredmeny/bySportoloId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sportolok.Controllers.EredmenyController",
+    "Method": "GetSportoloByName",
+    "RelativePath": "api/Eredmeny/bySportoloName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
