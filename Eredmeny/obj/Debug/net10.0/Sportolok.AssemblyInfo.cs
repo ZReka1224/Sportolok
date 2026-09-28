@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sportolok")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c418817e1952322f604f58a22b135cbce91d4710")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sportolok")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sportolok")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
